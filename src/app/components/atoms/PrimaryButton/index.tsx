@@ -3,7 +3,7 @@ import type React from "react";
 
 interface PrimaryButton {
 	children: React.ReactNode;
-	oncClick: () => void;
+	oncClick?: () => void;
 	color:
 		| "default"
 		| "primary"
@@ -14,6 +14,7 @@ interface PrimaryButton {
 		| undefined;
 	className?: string;
 	icon?: React.ReactNode;
+	isDisabled?: boolean;
 }
 
 const PrimaryButton = ({
@@ -22,6 +23,7 @@ const PrimaryButton = ({
 	className,
 	icon,
 	color,
+	isDisabled,
 }: PrimaryButton) => {
 	return (
 		<Button
@@ -29,6 +31,7 @@ const PrimaryButton = ({
 			color={color}
 			onClick={onClick}
 			endContent={icon}
+			disabled={isDisabled}
 		>
 			{children}
 			<icon />

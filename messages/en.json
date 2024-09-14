@@ -1,6 +1,8 @@
 {
   "home": {
-    "upload_file": "Upload your sketch file"
+    "upload_file": "Upload your sketch file",
+    "upload_file_area": "Upload or drag & drop file here",
+    "clear_file": "Clear file"
   },
   "validation": {
     "file_extension": ""

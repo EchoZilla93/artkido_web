@@ -1,8 +1,9 @@
 import Header from "@/src/app/components/organisms/Header";
+import {PropsWithChildren} from "react";
 
 const PageContainer = ({ children }: PropsWithChildren) => {
 	return (
-		<div className={"h-full w-full bg-white"}>
+		<div className={"h-screen w-screen bg-white"}>
 			<Header />
 			{children}
 		</div>
