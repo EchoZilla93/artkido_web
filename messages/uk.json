@@ -1,6 +1,8 @@
 {
   "home": {
-    "upload_file": "Обрати файл з малюнком"
+    "upload_file": "Обрати файл з малюнком",
+    "upload_file_area": "Завантажте або перетягніть файл сюди",
+    "clear_file": "Очистити файл"
   },
   "validation": {
     "file_extension": ""
